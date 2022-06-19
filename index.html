@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Get Lifted!!</title>
+</head>
+
+<body>
+    <main>
+        <div class="img__container">
+            <img src="./img/img-3.jpg" alt="Music Player" />
+        </div>
+        <div class="blur__bg"></div>
+        <div class="song__title">
+            <p class="song__name">The Weekend</p>
+            <p class="song__artist">Starboy</p>
+        </div>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <audio src="./music/asa.mp3" id="audio"></audio>
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+            <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play play"></i>
+        </button>
+            <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
